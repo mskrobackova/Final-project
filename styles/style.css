@@ -14,6 +14,16 @@ h5 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 70%;
 }
 .hero h2 {
   font-family: "Poppins", serif;
@@ -25,7 +35,7 @@ h1 {
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 150px;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -34,11 +44,40 @@ h1 {
   color: var(--secondary-color);
 }
 
-.btn {
+.btn-contact {
   background-color: var(--primary-color);
   border-radius: 4px;
   font-size: 18px;
   color: white;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-first-project {
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.first-project {
+  padding: 120px 60px 0;
+}
+
+@media (max-width: 900px) {
+  .first-project {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
