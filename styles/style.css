@@ -45,20 +45,29 @@ p {
   opacity: 100%;
 }
 
-.about-me {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-me-content {
+.content {
   margin: 30px;
 }
-.about-me h1 {
+.content p {
+  font-size: 14px;
+}
+.content-container h1 {
   font-size: 64px;
   line-height: 1;
 }
-.about-me h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: "Poppins", serif;
+}
+.content-container h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Poppins", serif;
+  margin: 20px 0 0;
 }
 .btn-main {
   background-color: var(--primary-color);
@@ -103,7 +112,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-me {
+  .content-container {
     padding: 0;
     text-align: center;
   }
