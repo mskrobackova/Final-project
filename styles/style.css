@@ -4,6 +4,12 @@
   --background-color: #f8f7f2;
   --headers-font: "Playfair Display", serif;
 }
+.container-fluid {
+  background-color: #f8f7f2;
+}
+.navbar {
+  padding: 0;
+}
 h1,
 h2,
 h3,
