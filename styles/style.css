@@ -6,9 +6,13 @@
 }
 .container-fluid {
   background-color: #f8f7f2;
+  padding-bottom: 20px;
 }
 .navbar {
   padding: 0;
+}
+.not-main {
+  background-color: white;
 }
 h1,
 h2,
@@ -19,7 +23,7 @@ h5 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.5;
 }
 h2 {

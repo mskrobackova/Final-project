@@ -25,10 +25,56 @@
       src="https://kit.fontawesome.com/500cdd7d94.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Previous work projects. Monika is fairly new front-end developer based in Amsterdam"
+    />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Document</title>
+    <title>Work portfolio</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid not-main">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                title="Back to Home Page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html" title="Previous work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact me"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I have been working on!</h1>
@@ -38,16 +84,56 @@
             <h3 class="text-center m-0">Yoga Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
           </div>
-               <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4">
             <img src="images/weather.png" class="img-fluid rounded" alt="" />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center">Built with HTML, CSS and JavaScript</p>
-        </div>
-             <div class="col-6">
+          </div>
+          <div class="col-6">
             <img src="images/dictionary.png" class="img-fluid rounded" alt="" />
             <h3 class="text-center m-0">Portofolio Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
+          </div>
+        </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-main" title="Contact Monika"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:mskrobackova@gmail.com"
+          class="email-link"
+          title="Email Monika"
+          >mskrobackova@gmail.com</a
+        >
+        <div class="social-links mb-5 d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/monikaa_sk/"
+            title="Instagram page"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/monika-skrobackova-840438152"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/mskrobackova" title="Github profile">
+            <i class="fab fa-github"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
